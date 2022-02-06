@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43017d158f566db4892f7db13cc5ac00, type: 3}
+  m_Name: sleep
+  m_EditorClassIdentifier: 
+  priority: 200
+  drawGizmos: 0
+  sleepPerSecond: 0.1
+  eyesAnimation: {fileID: 11400000, guid: c9588251691c670479c65978377863da, type: 2}
+  mouthReference: {fileID: 11400000, guid: 037d42ca295cfd84bae5fef864181e85, type: 2}
+  minVelocityToWakeUp: 0.1
+  deltaAngleToWakeUp: 22

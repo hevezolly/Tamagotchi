@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9fe2e51033e9c4f9825674e8ec3c83, type: 3}
+  m_Name: EyesOvereatingSwapper
+  m_EditorClassIdentifier: 
+  priority: 100
+  AnimationsToSwap:
+  - {fileID: 11400000, guid: 0218030aa65507447b649bb54cd477a2, type: 2}
+  - {fileID: 11400000, guid: 101535fd01f157649ac0f44f27be3b4f, type: 2}
+  - {fileID: 11400000, guid: 5e49b927dcbee6a42beb97d86b32a09e, type: 2}
+  resultAnimation: {fileID: 11400000, guid: 221d7fc8f0af673429a0c595be065eac, type: 2}
