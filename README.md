@@ -1,24 +1,22 @@
 # Tamagotchi
 
-Это мой проект, который не был завершен. По задумке - это тамагочи с упором в физику. Проект изначально разрабатывался под андроид, поэтому такое необычное отношение сторон у gif.
+Physics based android tamagochi. In progress.
 
-#### Физика
+Genre: Tamagochi
 
-Для репрезентации питомца я использовал простейшую модель SoftBody
+Tecknologies:
+- Unity 2020.2
+- URP
+- 2d renderer
+- custom mesh generation
+- custom soft body implementation
+- custom state machine
 
-<img src="https://user-images.githubusercontent.com/28929816/152701955-d38769fc-d6b3-49d9-ae57-703f028cc8fc.gif" width="300" />
 
-#### Поведения
+### Physics
 
-Также я реализовал систему поведений питомца: он ведет себя по-разному в зависимости от состояния. 
-Из-за состояния проекта, некоторые спрайты не были добавлены, поэтому в некоторых местах они заменены болванками.
+<img src="https://user-images.githubusercontent.com/28929816/152701955-d38769fc-d6b3-49d9-ae57-703f028cc8fc.gif" height="500" />
 
-<img src="https://user-images.githubusercontent.com/28929816/152702192-f96bd052-4d99-4358-a7df-d39eaeece523.gif" width="300" />
+### State machine
 
-Кроме того, в зависимости от состояни питомца, меняется и набор его анимций. Это заметно по предыдущей gif.
-
-#### Взаимодействие с объектами
-
-Некоторые реализованные предметы могут взаимодействовать между собой и окружающим миром.
-
-<img src="https://user-images.githubusercontent.com/28929816/152702380-ef07669c-d3d0-4d95-b008-83aa0e4d7fa4.gif" width="300" />
+<img src="https://user-images.githubusercontent.com/28929816/152702192-f96bd052-4d99-4358-a7df-d39eaeece523.gif" height="500" />
