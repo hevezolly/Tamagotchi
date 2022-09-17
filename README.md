@@ -4,7 +4,7 @@ Physics based android tamagochi. In progress.
 
 Genre: Tamagochi
 
-Tecknologies:
+Technologies:
 - Unity 2020.2
 - URP
 - 2d renderer
